@@ -407,6 +407,7 @@ def evaluate_olivettifaces(learning_rate=0.05, n_epochs=200,
                           (epoch, minibatch_index + 1, n_train_batches,
                            test_score * 100.))
 
+			
             if patience <= iter:
                 done_looping = True
                 break
